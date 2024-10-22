@@ -1,0 +1,11 @@
+.component-style {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .component-style {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
