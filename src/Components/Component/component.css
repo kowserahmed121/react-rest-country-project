@@ -9,3 +9,12 @@
     grid-template-columns: repeat(1, 1fr);
   }
 }
+.list-style{
+  text-align: left;
+}
+
+.img-width{
+  width: 100px;
+  height: 80px;
+  margin-left: 20px;
+}
